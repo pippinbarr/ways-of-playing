@@ -36,9 +36,12 @@ h1 {
 }
 
 h2 {
-  color: #87ebce;
   font-size: 2rem;
   font-style: italic
+}
+
+.nothing {
+  color: #87ebce;
 }
 
 
