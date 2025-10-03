@@ -13,13 +13,11 @@ body {
   font-size: 1.5rem;
   max-width: 60rem;
   margin: 0 auto;
-  /* padding: 0rem 1rem 1rem 1rem; */
 }
 
 #container {
   margin: 0 auto;
   padding: 0rem 1rem 1rem 1rem;
-  /* margin-top: 13rem; */
   max-width: 60rem;
 }
 
@@ -33,6 +31,7 @@ h1 {
   font-size: 4rem;
   font-style: italic;
   margin-top: 1rem;
+  margin-bottom: 0rem;
 }
 
 h2 {
@@ -44,15 +43,15 @@ h2 {
   color: #87ebce;
 }
 
-
-section {
-  /* padding-bottom: 2rem; */
-  /* margin-bottom: 2rem; */
-  /* border-bottom: 1px dashed black; */
+.authors,
+.authors a {
+  margin-top: 0rem;
+  margin-bottom: 4rem;
+  color: #eb87ce;
 }
 
-#about {
-  /* margin-top: 14rem; */
+a {
+  text-decoration: underline;
 }
 
 img {
